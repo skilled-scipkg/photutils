@@ -1,0 +1,104 @@
+{
+  "compiled_package_id": "photutils",
+  "evidence": {
+    "core_skills": [
+      "photutils-getting-started",
+      "photutils-api-and-scripting",
+      "photutils-inputs-and-modeling",
+      "photutils-developer-guide",
+      "photutils-build-and-install",
+      "photutils-whats-new"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/photutils-getting-started.md",
+      "skills/.evidence/photutils-api-and-scripting.md",
+      "skills/.evidence/photutils-inputs-and-modeling.md",
+      "skills/.evidence/photutils-developer-guide.md",
+      "skills/.evidence/photutils-build-and-install.md",
+      "skills/.evidence/photutils-whats-new.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "No top-level tutorials/examples directory was found; tutorial-oriented content is under docs/getting_started and docs/user_guide.",
+      "For deterministic generation on this layout, pass --source-dirs photutils because automatic source discovery does not pick package-named roots by default."
+    ],
+    "package_name": "photutils",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "photutils"
+    ],
+    "test_dirs": [
+      "photutils/tests",
+      "photutils/aperture/tests",
+      "photutils/background/tests",
+      "photutils/centroids/tests",
+      "photutils/datasets/tests",
+      "photutils/detection/tests",
+      "photutils/geometry/tests",
+      "photutils/isophote/tests",
+      "photutils/morphology/tests",
+      "photutils/profiles/tests",
+      "photutils/psf/tests",
+      "photutils/psf_matching/tests",
+      "photutils/segmentation/tests",
+      "photutils/utils/tests"
+    ],
+    "tutorial_dirs": [
+      "docs/getting_started",
+      "docs/user_guide"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/photutils-photutils",
+  "validation": {
+    "core_skills_checked": [
+      "photutils-api-and-scripting",
+      "photutils-getting-started",
+      "photutils-troubleshooting",
+      "photutils-whats-new",
+      "photutils-parallel-hpc",
+      "photutils-inputs-and-modeling"
+    ],
+    "docs_only": false,
+    "errors": [],
+    "index_skills": [
+      "photutils-index"
+    ],
+    "ok": true,
+    "skills_total": 10,
+    "source_links_total": 214,
+    "topic_skills": 9,
+    "warnings": []
+  }
+}

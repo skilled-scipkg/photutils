@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "photutils-getting-started",
+    "photutils-api-and-scripting",
+    "photutils-inputs-and-modeling",
+    "photutils-developer-guide",
+    "photutils-build-and-install",
+    "photutils-whats-new"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/photutils-getting-started.md",
+    "skills/.evidence/photutils-api-and-scripting.md",
+    "skills/.evidence/photutils-inputs-and-modeling.md",
+    "skills/.evidence/photutils-developer-guide.md",
+    "skills/.evidence/photutils-build-and-install.md",
+    "skills/.evidence/photutils-whats-new.md"
+  ]
+}
